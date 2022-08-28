@@ -1,5 +1,6 @@
 backend:
-  name: kayla-moz-portfolio
+  name: github
+  repo: kayla-moz-portfolio
   branch: main
 media_folder: static/assets
 public_folder: /assets
