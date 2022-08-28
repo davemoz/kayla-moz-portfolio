@@ -1,5 +1,6 @@
 backend:
   name: kayla-moz-portfolio
+  branch: main
 media_folder: static/assets
 public_folder: /assets
 collections:
@@ -7,18 +8,30 @@ collections:
     label: Blog
     folder: blog
     create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
       - { name: path, label: Path }
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
-  - name: portfolio
-    label: Portfolio
-    folder: portfolio
+  - name: work
+    label: Work
+    folder: work
     create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
       - { name: path, label: Path }
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - { name: description, label: Description, widget: markdown }
       - { name: image, label: Image, widget: Image }
+  - name: exhibitions
+    label: Exhibitions
+    folder: exhibitions
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: datetime }
+      - { name: title, label: Title }
+      - { name: description, label: Description, widget: markdown }
