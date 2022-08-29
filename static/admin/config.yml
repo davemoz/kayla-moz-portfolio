@@ -23,7 +23,17 @@ collections:
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - { name: description, label: Description, widget: markdown }
-      - { name: image, label: Image, widget: image }
+      - label: Images
+        name: images
+        widget: object
+        collapsed: true
+        fields:
+          - { name: image-first, label: First image, widget: image }
+          - { name: image-second, label: Second image, widget: image }
+          - { name: image-third, label: Third image, widget: image }
+          - { name: image-fourth, label: Fourth image, widget: image }
+          - { name: image-fifth, label: Fifth image, widget: image }
+          - { name: image-sixth, label: Sixth image, widget: image }
   - name: exhibitions
     label: Exhibitions
     folder: exhibitions
