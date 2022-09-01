@@ -39,7 +39,7 @@ const config: GatsbyConfig = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "work",
-        path: `${__dirname}/work`,
+        path: `${__dirname}/src/work`,
       },
       __key: "work",
     },
@@ -47,7 +47,7 @@ const config: GatsbyConfig = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "exhibitions",
-        path: `${__dirname}/exhibitions`,
+        path: `${__dirname}/src/exhibitions`,
       },
       __key: "exhibitions",
     },
@@ -55,7 +55,7 @@ const config: GatsbyConfig = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "blog",
-        path: `${__dirname}/blog`,
+        path: `${__dirname}/src/blog`,
       },
       __key: "blog",
     },
