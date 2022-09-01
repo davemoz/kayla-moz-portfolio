@@ -5,6 +5,8 @@ import WorkPost from "../components/work/WorkPost";
 import type { HeadFC } from "gatsby";
 
 const WorkPage = ({ data }) => {
+  console.log(data);
+
   return (
     <>
       <h1>Work</h1>
