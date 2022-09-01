@@ -8,9 +8,9 @@ const WorkPage = ({ data }) => {
   return (
     <>
       <h1>Work</h1>
-      {data.map((work) => {
+      {/* {data.map((work) => {
         return <WorkPost post={work.id} />;
-      })}
+      })} */}
     </>
   );
 };
