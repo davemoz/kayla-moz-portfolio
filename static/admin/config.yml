@@ -28,12 +28,42 @@ collections:
         widget: object
         collapsed: true
         fields:
-          - { name: image-first, label: First image, widget: image }
-          - { name: image-second, label: Second image, widget: image }
-          - { name: image-third, label: Third image, widget: image }
-          - { name: image-fourth, label: Fourth image, widget: image }
-          - { name: image-fifth, label: Fifth image, widget: image }
-          - { name: image-sixth, label: Sixth image, widget: image }
+          - {
+              name: image-first,
+              label: First image,
+              widget: image,
+              required: false,
+            }
+          - {
+              name: image-second,
+              label: Second image,
+              widget: image,
+              required: false,
+            }
+          - {
+              name: image-third,
+              label: Third image,
+              widget: image,
+              required: false,
+            }
+          - {
+              name: image-fourth,
+              label: Fourth image,
+              widget: image,
+              required: false,
+            }
+          - {
+              name: image-fifth,
+              label: Fifth image,
+              widget: image,
+              required: false,
+            }
+          - {
+              name: image-sixth,
+              label: Sixth image,
+              widget: image,
+              required: false,
+            }
   - name: exhibitions
     label: Exhibitions
     folder: exhibitions
