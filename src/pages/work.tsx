@@ -7,7 +7,7 @@ const WorkPage = ({ data }) => {
     <>
       <h1>Work</h1>
       {data.map((work) => {
-        return <WorkPost post={work} />;
+        return <WorkPost post={work.id} />;
       })}
     </>
   );

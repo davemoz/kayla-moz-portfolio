@@ -7,7 +7,7 @@ public_folder: /assets
 collections:
   - name: blog
     label: Blog
-    folder: src/blog
+    folder: blog
     create: true
     slug: 'index'
     media_folder: ''
@@ -19,7 +19,7 @@ collections:
       - { name: body, label: Body, widget: markdown }
   - name: work
     label: Work
-    folder: src/work
+    folder: work
     create: true
     slug: 'index'
     media_folder: ''
@@ -72,7 +72,7 @@ collections:
             }
   - name: exhibitions
     label: Exhibitions
-    folder: src/exhibitions
+    folder: exhibitions
     create: true
     slug: 'index'
     media_folder: ''
