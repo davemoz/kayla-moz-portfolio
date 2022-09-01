@@ -1,5 +1,7 @@
 import * as React from "react";
 import { graphql } from "gatsby";
+import WorkPost from "../components/work/WorkPost";
+
 import type { HeadFC } from "gatsby";
 
 const WorkPage = ({ data }) => {
