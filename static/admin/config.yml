@@ -14,7 +14,7 @@ collections:
     slug: 'index'
     media_folder: ''
     public_folder: ''
-    path: '{{year}}-{{month}}-{{day}}-{{slug}}/index'
+    path: '{{year}}-{{month}}-{{day}}-{{title}}/index'
     fields:
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
@@ -26,7 +26,7 @@ collections:
     slug: 'index'
     media_folder: ''
     public_folder: ''
-    path: '{{year}}-{{month}}-{{day}}-{{slug}}/index'
+    path: '{{year}}-{{month}}-{{day}}-{{title}}/index'
     fields:
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
@@ -79,7 +79,7 @@ collections:
     slug: 'index'
     media_folder: ''
     public_folder: ''
-    path: '{{year}}-{{month}}-{{day}}-{{slug}}/index'
+    path: '{{year}}-{{month}}-{{day}}-{{title}}/index'
     fields:
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
